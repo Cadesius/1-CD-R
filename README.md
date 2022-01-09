@@ -1,10 +1,14 @@
-# The 1-Click Disc Ripper
+# The 1-Click Disc-Ripper
 
-The 1-Click Disc Ripper (1-CDr - geddit?) is a simple batch script tool built on top of the windows version of dd (included for simplicity) that is designed to do only one thing: make ripping any removable media to a .ISO disc image as simple as possible.
+The 1-Click Disc Ripper (1-CD-R - geddit?) is a simple batch script tool built on top of the windows version of dd (included for simplicity) that is designed to do only one thing: make ripping any removable media to a .ISO disc image as simple as possible.
 
 The program adheres to the suckless design philosophy, and as a result is super lightweight, occupies under 1MB of storage, and will run on pretty much every Windows machine under the sun (Linux (bash) version coming at some point... maybe - if you use linux, but can't figure out the dd tool, you may be doing something wrong?).
 
 I'll look to expand functionality in the near future (without adding bloat mind you), so keep an eye on the repo if you find the tool useful.
+
+## Usage
+
+As an archivist, I designed this order to allow the rapid transfer of large optical disc collections onto more reliable storage mediums. Since many CDs, CD-Rs and DVDs were burnt in the 1990s and 2000s, they are approaching the end of their lifespan, with many succumbing to disc rot due to dye bleed (basically - it's bad news for the optical disc). Because of this, many archivists do not have the time to catalogue and restructure the contents of discs as they are transferred. Using this program, archivists can simply create a copy to be accessed at a later date, with no change in the associated data, preserving provenance and authenticity.
 
 ## Documentation
 
@@ -68,5 +72,16 @@ You can also compare the ripped image with the original disc/media. In Windows 1
 
 And that's it! You now have a complete one to one copy of your disc/media.
 
-## Usage
+## Roadmap
 
+I aim to implement three key features in the future:
+
+1. The ability to create directories during the setup process.
+
+2. Making more options manually selectable for the user.
+
+3. Adding support for Linux by porting the script to Bash.
+
+## Licensing
+
+This program (well, script, if we're being honest) is licensed under The IDGAF License v1.0, please see the attached license file for more information.
