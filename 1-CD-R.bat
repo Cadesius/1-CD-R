@@ -2,7 +2,7 @@
 
 @REM Intro text 
 ECHO 1-Click Disc Ripper by Cade Simpson
-ECHO Released under The IDGAF License v1.0
+ECHO Released under The GNU General Public License (GPL) Version 2, June 1991
 ECHO:
 
 @REM Assign variables for disc drive letter and storage directory
